@@ -11,6 +11,7 @@ margin: 10px;
 #parent{
 display: flex;
 justify-content: space-around;
+flex-direction: row;
 }
 
 .contents{
@@ -38,7 +39,7 @@ before{content:"&#8226;";}
 }
 
 h2::before{
- content: "・";
+ content: "⚫︎";
  color: rgb(239,111,139);
 }
 .contents p:nth-of-type(2)::first-letter{
@@ -61,7 +62,7 @@ footer{
  text-align: center;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
    h2{
      font-size: 30px;
    }
@@ -72,6 +73,19 @@ footer{
      flex-direction: column;
    }
 }
+
+a:link{
+ color: rgb(255,255,255);
+}
+
+a:visited{
+ color: rgb(193,234,251);
+}
+
+a:hover{
+ color: rgb(245,178,168);
+}
+
 
 
 
