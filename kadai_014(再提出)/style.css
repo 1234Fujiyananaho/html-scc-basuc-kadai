@@ -1,0 +1,30 @@
+html{
+ font-size: 20px;
+}
+
+#parent p{
+ font-weight: bold;
+}
+
+body{
+ font-family: "Arial","Merio",sans-self;
+ text-align: center;
+}
+h1{
+ font-size: 2em;
+ font-style: Josefin Sans;
+ letter-spacing: 1.2em;
+ text-decoration: underline;
+ border-bottom: 3px soid rgb(115, 115, 114);
+ text-shadow:1px 3px 3px #999999;
+}
+.font_color{
+ color: skyblue;
+}
+.font_color2{
+color: rgb(255,192,302);
+}
+.font_weight{
+font-weight: bold;
+}
+
