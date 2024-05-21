@@ -1,0 +1,33 @@
+html{
+ font-size: 20px;
+}
+
+#parent p{
+ font-weight: bold;
+}
+
+body{
+ font-family: "Arial","Merio",sans-self;
+ text-align: center;
+}
+h1{
+ font-size: 2rem;
+ letter-spacing: 1.2em;
+ border-bottom: 3px solid rgb(115,115,114);
+ text-shadow:1px 3px 3px #d3d3d3;
+}
+.font_color{
+ color: skyblue;
+}
+.font_color2{
+color: rgb(255,192,302);
+}
+.font_weight{
+font-weight: bold;
+}
+.google-fonts{
+ font-family: "Josefin Sans",sans-self;
+ font-optical-sizing: auto;
+ font-weight: 400;
+ font-style: normal;
+}
